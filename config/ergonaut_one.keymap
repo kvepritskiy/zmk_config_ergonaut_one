@@ -16,7 +16,7 @@
         compatible = "zmk,conditional-layers";
 
         tri-layer {
-            if-layers = <1 2>;
+            if-layers = <2 1>;
             then-layer = <3>;
         };
     };
@@ -26,28 +26,28 @@
 
         default_layer {
             bindings = <
-&mt ESCAPE RBKT  &kp Q  &kp W  &kp E             &kp R            &kp T        &kp Y        &kp U           &kp I        &kp O    &kp P     &kp LBKT
-&mt LCTRL GRAVE  &kp A  &kp S  &kp D             &kp F            &kp G        &kp H        &kp J           &kp K        &kp L    &kp SEMI  &mt RCTRL SQT
-&mt LALT MINUS   &kp Z  &kp X  &kp C             &kp V            &kp B        &kp N        &kp M           &kp COMMA    &kp DOT  &kp FSLH  &mt RALT BSLH
-                               &lt RSE LEFT_WIN  &mt LSHFT SPACE  &lt LWR RET  &lt LWR TAB  &mt RSHFT BSPC  &lt RSE DEL
-            >;
-        };
-
-        lower_layer {
-            bindings = <
-&mt LGUI F1     &kp F2             &kp F3  &kp F4    &kp F5    &kp F6     &kp F7     &kp F8    &kp F9    &kp F10   &kp F11   &kp F12
-&mt LCTRL PLUS  &kp EXCL           &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &mt RCTRL MINUS
-&mt LALT EQUAL  &kp DOUBLE_QUOTES  &kp N2  &kp N3    &kp N4    &kp N5     &kp N6     &kp N7    &kp N8    &kp N9    &kp N0    &kp RALT
-                                           &trans    &trans    &trans     &trans     &trans    &trans
+&mt ESCAPE RBKT  &kp Q  &kp W  &kp E           &kp R            &kp T      &kp Y      &kp U           &kp I      &kp O    &kp P     &kp LBKT
+&mt LCTRL GRAVE  &kp A  &kp S  &kp D           &kp F            &kp G      &kp H      &kp J           &kp K      &kp L    &kp SEMI  &mt RCTRL SQT
+&mt LALT MINUS   &kp Z  &kp X  &kp C           &kp V            &kp B      &kp N      &kp M           &kp COMMA  &kp DOT  &kp FSLH  &mt RALT BSLH
+                               &lt 1 LEFT_WIN  &mt LSHFT SPACE  &lt 2 RET  &lt 2 TAB  &mt RSHFT BSPC  &lt 1 DEL
             >;
         };
 
         raise_layer {
             bindings = <
-&mt LGUI KP_NUM  &kp PG_UP  &kp UP_ARROW    &kp PAGE_DOWN  &kp KP_N9  &kp KP_MINUS  &kp C_VOL_UP  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SLCK         &kp CLCK
-&mt LCTRL EQUAL  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT      &kp KP_N6  &kp KP_PLUS   &kp C_MUTE    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp INS          &mt RCTRL K_APP
-&kp LALT         &kp KP_N0  &kp KP_N1       &kp KP_N2      &kp KP_N3  &kp KP_DOT    &kp C_VOL_DN  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PAUSE_BREAK  &kp RALT
-                                            &trans         &trans     &trans        &trans        &trans           &trans
+&mt LGUI KP_NUM  &kp PG_UP  &kp UP_ARROW    &kp PAGE_DOWN  &kp KP_N9  &kp KP_MINUS  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMLOCK   &kp SLCK         &kp CLCK
+&mt LCTRL EQUAL  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT      &kp KP_N6  &kp KP_PLUS   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_6  &kp INS          &mt RCTRL K_APP
+&kp LALT         &kp KP_N0  &kp KP_N1       &kp KP_N2      &kp KP_N3  &kp KP_DOT    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp PAUSE_BREAK  &kp RALT
+                                            &trans         &trans     &trans        &trans           &trans           &trans
+            >;
+        };
+
+        lower_layer {
+            bindings = <
+&mt LGUI F1     &kp F2             &kp F3                 &kp F4    &kp F5         &kp F6     &kp F7     &kp F8        &kp F9    &kp F10              &kp F11               &kp F12
+&mt LCTRL PLUS  &kp EXCL           &kp AT                 &kp HASH  &kp DLLR       &kp PRCNT  &kp CARET  &kp AMPS      &kp STAR  &mt LPAR LEFT_BRACE  &mt RPAR RIGHT_BRACE  &mt RCTRL MINUS
+&mt LALT EQUAL  &kp DOUBLE_QUOTES  &kp LG(DOUBLE_QUOTES)  &kp N3    &kp SEMICOLON  &none      &kp COLON  &kp QUESTION  &kp N8    &kp N9               &kp N0                &kp RALT
+                                                          &trans    &trans         &trans     &trans     &trans        &trans
             >;
         };
 
