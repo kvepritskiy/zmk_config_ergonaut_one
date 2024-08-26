@@ -11,7 +11,7 @@
 
 &mt {
     quick-tap-ms = <200>;
-    tapping-term-ms = <300>;
+    tapping-term-ms = <500>;
 };
 
 / {
@@ -31,7 +31,7 @@
             bindings = <
 &kp ESCAPE       &kp Q        &kp W        &kp E           &kp R            &kp T      &kp Y      &kp U                &kp I      &kp O    &kp P     &kp LBKT
 &mt LCTRL GRAVE  &mt LC(A) A  &mt LC(S) S  &kp D           &kp F            &kp G      &kp H      &kp J                &kp K      &kp L    &kp SEMI  &mt RCTRL SQT
-&mt LALT MINUS   &mt RC(Z) Z  &mt RC(X) X  &mt LC(C) C     &mt LC(V) V      &kp B      &kp N      &mt M RIGHT_BRACKET  &kp COMMA  &kp DOT  &kp FSLH  &mt RALT BSLH
+&mt LALT MINUS   &mt RC(Z) Z  &mt RC(X) X  &mt LC(C) C     &mt LC(V) V      &kp B      &kp N      &mt RIGHT_BRACKET M  &kp COMMA  &kp DOT  &kp FSLH  &mt RALT BSLH
                                            &lt 1 LEFT_WIN  &mt LSHFT SPACE  &lt 2 RET  &lt 2 TAB  &kp BACKSPACE        &lt 1 DEL
             >;
         };
