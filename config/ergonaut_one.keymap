@@ -38,10 +38,10 @@
 
         raise_layer {
             bindings = <
-&mt LGUI KP_NUM  &kp PG_UP  &kp UP_ARROW    &kp PAGE_DOWN  &kp KP_N9  &kp KP_MINUS  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMLOCK   &kp SLCK         &kp CLCK
-&mt LCTRL EQUAL  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT      &kp KP_N6  &kp KP_PLUS   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_6  &kp INS          &mt RCTRL K_APP
-&kp LALT         &kp KP_N0  &kp KP_N1       &kp KP_N2      &kp KP_N3  &kp KP_DOT    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp PAUSE_BREAK  &kp RALT
-                                            &trans         &trans     &trans        &trans           &trans           &trans
+&mt LGUI KP_NUM  &kp PG_UP  &kp UP_ARROW    &kp PAGE_DOWN  &none   &none   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMLOCK   &kp FSLH      &kp MINUS
+&mt LCTRL EQUAL  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT      &none   &none   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp EQUAL        &kp ASTERISK  &kp PLUS
+&kp LALT         &none      &none           &none          &none   &none   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp KP_DOT    &kp RALT
+                                            &trans         &trans  &trans  &trans           &trans           &trans
             >;
         };
 
