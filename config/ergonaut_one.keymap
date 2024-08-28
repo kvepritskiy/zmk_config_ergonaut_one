@@ -33,6 +33,7 @@
                 <&kp T &kp R &kp U &kp S &kp T &kp M &kp E &kp I &kp A &kp M &kp A &kp A &kp D &kp M &kp I &kp N &kp N4 &kp N2 &kp DOT>;
 
             label = "NEW_MACRO";
+            tap-ms = <50>;
         };
     };
 
