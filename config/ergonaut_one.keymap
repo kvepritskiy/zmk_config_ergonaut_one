@@ -34,6 +34,7 @@
 
             label = "NEW_MACRO";
             tap-ms = <50>;
+            wait-ms = <50>;
         };
     };
 
