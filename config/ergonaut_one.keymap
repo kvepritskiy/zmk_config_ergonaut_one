@@ -47,7 +47,6 @@
             key-positions = <2 3>;
         };
     };
-    #include "mouse.dtsi";
     keymap {
         compatible = "zmk,keymap";
 
