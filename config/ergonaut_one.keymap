@@ -34,7 +34,7 @@
                 <&kp T &kp R &kp U &kp S &kp T &kp M &kp E &kp I &kp A &kp M &kp A &kp A &kp D &kp M &kp I &kp N &kp N4 &kp N2 &kp DOT>;
 
             label = "NEW_MACRO";
-            tap-ms = <50>;
+            tap-ms = <150>;
             wait-ms = <50>;
         };
     };
@@ -48,24 +48,50 @@
         };
     };
 
+/* define keys */
+#define ONE       &kp KP_NUMBER_1 
+#define TWO       &kp KP_NUMBER_2
+#define THREE     &kp KP_NUMBER_3
+#define FOUR      &kp KP_NUMBER_4
+#define FIVE      &kp KP_NUMBER_5
+#define SIX       &kp KP_NUMBER_6
+#define SEVEN     &kp KP_NUMBER_7
+#define EIGHT     &kp KP_NUMBER_8
+#define NINE      &kp KP_NUMBER_9
+#define ZERO      &kp KP_NUMBER_0
+#define NUMLOCK   &kp KP_NUMBER_1
+
+
+/* Keymap */
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&kp ESCAPE  &kp Q  &kp W  &kp E           &kp R            &kp T      &kp Y      &kp U          &kp I      &kp O    &kp P     &kp LBKT
-&kp LCTRL   &kp A  &kp S  &kp D           &kp F            &kp G      &kp H      &kp J          &kp K      &kp L    &kp SEMI  &mt RCTRL SQT
-&kp LALT    &kp Z  &kp X  &kp C           &kp V            &kp B      &kp N      &kp M          &kp COMMA  &kp DOT  &kp FSLH  &mt RALT BSLH
-                          &lt 1 LEFT_WIN  &mt LSHFT SPACE  &lt 2 RET  &lt 2 TAB  &kp BACKSPACE  &lt 1 DEL
+// ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
+     &kp ESCAPE       &kp Q        &kp W         &kp E         &kp R          &kp T             &kp Y         &kp U          &kp I        &kp O         &kp P       &kp LBKT    
+// ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+      &kp LCTRL       &kp A        &kp S         &kp D         &kp F          &kp G             &kp H         &kp J          &kp K        &kp L        &kp SEMI   &mt RCTRL SQT 
+// ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+      &kp LALT        &kp Z        &kp X         &kp C         &kp V          &kp B             &kp N         &kp M       &kp COMMA      &kp DOT       &kp FSLH   &mt RALT BSLH
+// ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
+                                             &lt 1 LEFT_WIN  &mt LSHFT SPACE  &lt 2 RET      &lt 2 TAB    &kp BACKSPACE   &lt 1 DEL                                              
+                                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
             >;
         };
 
         raise_layer {
             bindings = <
-&kp LGUI  &mt HOME PAGE_UP  &kp UP_ARROW    &mt END PAGE_DOWN  &kp INS  &none   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMLOCK   &kp PLUS      &kp MINUS
-&trans    &kp LEFT          &kp DOWN_ARROW  &kp RIGHT          &none    &none   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_EQUAL     &kp ASTERISK  &kp SLASH
-&kp LALT  &none             &none           &none              &none    &none   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp KP_DOT    &kp RALT
-                                            &trans             &trans   &trans  &trans           &trans           &trans
+// ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
+      &kp LGUI  &mt HOME PAGE_UP  &kp UP_ARROW  &mt END PAGE_DOWN  &kp INS  &none                ONE          TWO           THREE        NUMLOCK      &kp PLUS      &kp MINUS
+// ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+&trans    &kp LEFT          &kp DOWN_ARROW  &kp RIGHT          &none          &none             FOUR          FIVE           SIX       &kp KP_EQUAL  &kp ASTERISK  &kp SLASH
+// ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+      &kp LALT        &none         &none         &none         &none         &none            SEVEN         EIGHT          NINE         ZERO        &kp KP_DOT    &kp RALT
+// ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
+                                                  &trans        &trans       &trans           &trans         &trans        &trans
+                                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
             >;
         };
 
