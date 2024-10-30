@@ -173,7 +173,7 @@ layers:
   - {t: ▽, type: trans}
   mouse:
   - {t: ▽, type: trans}
-  - ''
+  - {type: held}
   - {type: held}
   - {type: held}
   - Scroll ↑
@@ -215,5 +215,5 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [3, 2]
+- p: [3, 2, 1]
   k: mouse

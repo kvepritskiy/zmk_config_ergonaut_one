@@ -39,7 +39,7 @@
 
         mouse_combo {
             bindings = <&mo 4>;
-            key-positions = <3 2>;
+            key-positions = <3 2 1>;
             timeout-ms = <501>;
         };
     };
