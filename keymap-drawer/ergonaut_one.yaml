@@ -64,7 +64,7 @@ layers:
   - KP 4
   - KP 5
   - KP 6
-  - KP EQUAL
+  - '='
   - '*'
   - /
   - Alt
