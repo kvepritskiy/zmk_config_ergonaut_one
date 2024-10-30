@@ -26,16 +26,11 @@
     };
 
     macros {
-        pwd: new_macro {
+        pwd: pwd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp T &kp R &kp U &kp S &kp T &kp M &kp E &kp I &kp A &kp M &kp A &kp A &kp D &kp M &kp I &kp N &kp N4 &kp N2 &kp DOT>;
-
-            label = "NEW_MACRO";
-            tap-ms = <50>;
-            wait-ms = <50>;
+            bindings = <&kp T &kp R &kp U &kp S &kp T &kp M &kp E &kp I &kp A &kp M &kp A &kp D &kp M &kp I &kp N &kp N4 &kp N2 &kp DOT>;
+            label = "PWD";
         };
     };
 
@@ -54,16 +49,10 @@
 
         default_layer {
             bindings = <
-
-// ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-     &kp ESCAPE       &kp Q        &kp W         &kp E         &kp R          &kp T             &kp Y         &kp U          &kp I        &kp O         &kp P       &kp LBKT    
-// ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &kp LCTRL       &kp A        &kp S         &kp D         &kp F          &kp G             &kp H         &kp J          &kp K        &kp L        &kp SEMI   &mt RCTRL SQT 
-// ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &kp LALT        &kp Z        &kp X         &kp C         &kp V          &kp B             &kp N         &kp M       &kp COMMA      &kp DOT       &kp FSLH   &mt RALT BSLH
-// ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                                             &lt 1 LEFT_WIN  &mt LSHFT SPACE  &lt 2 RET      &lt 2 TAB    &kp BACKSPACE   &lt 1 DEL                                              
-//                                           ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
+&kp ESCAPE  &kp Q  &kp W  &kp E           &kp R            &kp T      &kp Y      &kp U          &kp I      &kp O    &kp P     &kp LBKT
+&kp LCTRL   &kp A  &kp S  &kp D           &kp F            &kp G      &kp H      &kp J          &kp K      &kp L    &kp SEMI  &mt RCTRL SQT
+&kp LALT    &kp Z  &kp X  &kp C           &kp V            &kp B      &kp N      &kp M          &kp COMMA  &kp DOT  &kp FSLH  &mt RALT BSLH
+                          &lt 1 LEFT_WIN  &mt LSHFT SPACE  &lt 2 RET  &lt 2 TAB  &kp BACKSPACE  &lt 1 DEL
             >;
         };
 
