@@ -59,6 +59,8 @@
                                              &lt 1 LEFT_WIN  &mt LSHFT SPACE  &lt 2 RET      &lt 2 TAB        BCSKP       &lt 1 DEL                                              
 //                                           ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
            
+            >;
+        };
 
         raise_layer {
             bindings = <
