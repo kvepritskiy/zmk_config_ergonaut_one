@@ -49,9 +49,9 @@ layers:
   - {t: PAGE DOWN, h: End}
   - Insert
   - ''
-  - KP 1
-  - KP 2
-  - KP 3
+  - '1'
+  - '2'
+  - '3'
   - KP NUMLOCK
   - +
   - '-'
@@ -61,10 +61,10 @@ layers:
   - →
   - ''
   - ''
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP EQUAL
+  - '4'
+  - '5'
+  - '6'
+  - '='
   - '*'
   - /
   - Alt
@@ -73,10 +73,10 @@ layers:
   - ''
   - ''
   - ''
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP 0
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - KP DOT
   - Alt
   - {type: held}
