@@ -46,6 +46,8 @@
 /*define keys*/
 #define BCKSP &kp BACKSPACE
 
+    keymap {
+        compatible = "zmk,keymap";
 
         default_layer {
             bindings = <

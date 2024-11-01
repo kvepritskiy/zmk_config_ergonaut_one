@@ -1,0 +1,219 @@
+layers:
+  default:
+  - ESCAPE
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '['
+  - Ctrl
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - {t: '''', h: Ctrl}
+  - Alt
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: \, h: Alt}
+  - {t: LEFT WIN, h: raise}
+  - {t: ␣, h: Shift}
+  - {t: ⏎, h: lower}
+  - {t: ↹, h: lower}
+  - BACKSPACE
+  - {t: ⌦, h: raise}
+  raise:
+  - Gui
+  - {t: PAGE UP, h: Home}
+  - UP ARROW
+  - {t: PAGE DOWN, h: End}
+  - Insert
+  - ''
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP NUMLOCK
+  - +
+  - '-'
+  - {t: ▽, type: trans}
+  - ←
+  - DOWN ARROW
+  - →
+  - ''
+  - ''
+  - KP 4
+  - KP 5
+  - KP 6
+  - '='
+  - '*'
+  - /
+  - Alt
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP 0
+  - KP DOT
+  - Alt
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  lower:
+  - Gui
+  - ''
+  - F1
+  - F2
+  - F3
+  - F4
+  - Sft+ 1
+  - Sft+ 2
+  - Sft+ 3
+  - ''
+  - ''
+  - ']'
+  - Ctrl
+  - ''
+  - F5
+  - F6
+  - F7
+  - F8
+  - Sft+ 4
+  - Sft+ 5
+  - Sft+ 6
+  - ''
+  - ''
+  - {t: '-', h: Ctrl}
+  - Alt
+  - ''
+  - F9
+  - F10
+  - F11
+  - F12
+  - Sft+ 7
+  - Sft+ 8
+  - Sft+ 9
+  - Sft+ 0
+  - ''
+  - Alt
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  adjust:
+  - Boot
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Boot
+  - BT CLR
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
+  - BT 5
+  - BT 4
+  - BT 3
+  - BT 2
+  - BT 1
+  - BT CLR
+  - Reset
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - {type: held}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  mouse:
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - Scroll ↑
+  - Scroll ↓
+  - '&mkp MB1'
+  - Mouse ↑
+  - '&mkp MB2'
+  - ''
+  - ''
+  - '&pwd'
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Mouse ←
+  - Mouse ↓
+  - Mouse →
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [3, 2, 1]
+  k: mouse
