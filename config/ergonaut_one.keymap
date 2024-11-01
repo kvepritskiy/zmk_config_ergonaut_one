@@ -49,14 +49,14 @@
 #define L1WIN &lt 1 LEFT_WIN
 #define PGUPHOME &mt HOME PAGE_UP
 #define PGDOWNEND &mt END PAGE_DOWN
-#define LEFT &kp LEFT_ARROW
-#define RIGHT &kp RIGHT_ARROW
-#define UP &kp UP_ARROW
-#define DOWN &kp DOWM_ARROW
-#define MOUSELEFT  &mmv MOVE_LEFT
-#define MOUSERIGHT  &mmv MOVE_RIGHT
-#define MOUSEUP  &mmv MOVE_UP
-#define MOUSEDOWN  &mmv MOVE_DOWN
+#define LEFT_ARR &kp LEFT_ARROW
+#define RIGHT_ARR &kp RIGHT_ARROW
+#define UP_ARR &kp UP_ARROW
+#define DOWN_ARR &kp DOWM_ARROW
+#define MOUSE_LEFT  &mmv MOVE_LEFT
+#define MOUSE_RIGHT  &mmv MOVE_RIGHT
+#define MOUSE_UP  &mmv MOVE_UP
+#define MOUSE_DOWN  &mmv MOVE_DOWN
 
 
     keymap {
@@ -80,9 +80,9 @@
         raise_layer {
             bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-    &kp LGUI      PGUPHOME      UP            PGDOWNEND       &kp INS     &none             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &KP_NUMLOCK   &kp PLUS      &kp MINUS
+    &kp LGUI      PGUPHOME      UP_ARR        PGDOWNEND     &kp INS       &none             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &KP_NUMLOCK   &kp PLUS      &kp MINUS
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &trans        LEFT          DOWN          RIGHT         &none         &none             &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL     &kp ASTERISK  &kp SLASH
+    &trans        LEFT_ARR      DOWN_ARR      RIGHT_ARR     &none         &none             &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL     &kp ASTERISK  &kp SLASH
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
     &kp LALT      &none         &none         &none         &none         &none             &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp KP_DOT    &kp RALT
 // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
@@ -122,9 +122,9 @@
         mouse_layer {
             bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-    &trans        &none         &none         &none         &msc SCRL_UP  &msc SCRL_DOWN    &mkp MB1      MOUSEUP       &mkp MB2      &none         &none         &pwd
+    &trans        &none         &none         &none         &msc SCRL_UP  &msc SCRL_DOWN    &mkp MB1      MOUSE_UP      &mkp MB2      &none         &none         &pwd
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &trans        &none         &none         &none         &none         &none             MOUSELEFT     MOUSEDOWN     MOUSERIGHT    &none         &none         &trans
+    &trans        &none         &none         &none         &none         &none             MOUSE_LEFT    MOUSE_DOWN    MOUSE_RIGHT    &none         &none         &trans
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
     &trans        &none         &none         &none         &none         &none             &trans        &trans        &trans        &none         &none         &trans
 // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
