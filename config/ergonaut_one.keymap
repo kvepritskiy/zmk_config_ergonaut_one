@@ -43,7 +43,7 @@
             timeout-ms = <501>;
         };
     };
-/define keys*/
+/*define keys*/
 #define BCKSP &kp BACKSPACE
 
 
