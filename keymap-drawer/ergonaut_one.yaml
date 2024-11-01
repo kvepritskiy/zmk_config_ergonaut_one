@@ -57,7 +57,7 @@ layers:
   - '-'
   - {t: ▽, type: trans}
   - LEFT ARROW
-  - DOWM ARROW
+  - DOWN ARROW
   - RIGHT ARROW
   - ''
   - ''
