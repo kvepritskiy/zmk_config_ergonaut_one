@@ -92,9 +92,9 @@ layers:
   - F2
   - F3
   - F4
-  - Sft+ N 1
-  - Sft+ N 2
-  - Sft+ N 3
+  - Sft+ 1
+  - Sft+ 2
+  - Sft+ 3
   - ''
   - ''
   - ']'
@@ -104,9 +104,9 @@ layers:
   - F6
   - F7
   - F8
-  - Sft+ N 4
-  - Sft+ N 5
-  - Sft+ N 6
+  - Sft+ 4
+  - Sft+ 5
+  - Sft+ 6
   - ''
   - ''
   - {t: '-', h: Ctrl}
@@ -116,10 +116,10 @@ layers:
   - F10
   - F11
   - F12
-  - Sft+ N 7
-  - Sft+ N 8
-  - Sft+ N 9
-  - Sft+ N 0
+  - Sft+ 7
+  - Sft+ 8
+  - Sft+ 9
+  - Sft+ 0
   - ''
   - Alt
   - {t: ▽, type: trans}
