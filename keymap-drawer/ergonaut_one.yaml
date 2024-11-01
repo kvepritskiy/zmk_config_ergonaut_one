@@ -49,21 +49,21 @@ layers:
   - {t: PAGE DOWN, h: End}
   - Insert
   - ''
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP NUMLOCK
+  - '1'
+  - '2'
+  - '3'
+  - '&KP_NUMLOCK'
   - +
   - '-'
   - {t: ▽, type: trans}
-  - ←
-  - DOWN ARROW
-  - →
+  - LEFT ARROW
+  - DOWM ARROW
+  - RIGHT ARROW
   - ''
   - ''
-  - KP 4
-  - KP 5
-  - KP 6
+  - '4'
+  - '5'
+  - '6'
   - '='
   - '*'
   - /
@@ -73,10 +73,10 @@ layers:
   - ''
   - ''
   - ''
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP 0
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - KP DOT
   - Alt
   - {type: held}
@@ -92,9 +92,9 @@ layers:
   - F2
   - F3
   - F4
-  - Sft+ 1
-  - Sft+ 2
-  - Sft+ 3
+  - Sft+ N 1
+  - Sft+ N 2
+  - Sft+ N 3
   - ''
   - ''
   - ']'
@@ -104,7 +104,7 @@ layers:
   - F6
   - F7
   - F8
-  - Sft+ 4
+  - Sft+ N 4
   - Sft+ 5
   - Sft+ 6
   - ''
