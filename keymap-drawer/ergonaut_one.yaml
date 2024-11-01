@@ -52,7 +52,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - '&KP_NUMLOCK'
+  - KP NUM
   - +
   - '-'
   - {t: ▽, type: trans}

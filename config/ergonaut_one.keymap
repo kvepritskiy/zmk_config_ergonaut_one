@@ -80,7 +80,7 @@
         raise_layer {
             bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-    &kp LGUI      PGUPHOME      UP_ARR        PGDOWNEND     &kp INS       &none             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &KP_NUMLOCK   &kp PLUS      &kp MINUS
+    &kp LGUI      PGUPHOME      UP_ARR        PGDOWNEND     &kp INS       &none             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_NUM    &kp PLUS      &kp MINUS
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
     &trans        LEFT_ARR      DOWN_ARR      RIGHT_ARR     &none         &none             &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL     &kp ASTERISK  &kp SLASH
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
