@@ -43,18 +43,22 @@
             timeout-ms = <501>;
         };
     };
+/define keys*/
+#define BCKSP &kp BACKSPACE
 
-    keymap {
-        compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&kp ESCAPE  &kp Q  &kp W  &kp E           &kp R            &kp T      &kp Y      &kp U          &kp I      &kp O    &kp P     &kp LBKT
-&kp LCTRL   &kp A  &kp S  &kp D           &kp F            &kp G      &kp H      &kp J          &kp K      &kp L    &kp SEMI  &mt RCTRL SQT
-&kp LALT    &kp Z  &kp X  &kp C           &kp V            &kp B      &kp N      &kp M          &kp COMMA  &kp DOT  &kp FSLH  &mt RALT BSLH
-                          &lt 1 LEFT_WIN  &mt LSHFT SPACE  &lt 2 RET  &lt 2 TAB  &kp BACKSPACE  &lt 1 DEL
-            >;
-        };
+// ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
+     &kp ESCAPE       &kp Q        &kp W         &kp E         &kp R          &kp T             &kp Y         &kp U          &kp I        &kp O         &kp P       &kp LBKT    
+// ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+      &kp LCTRL       &kp A        &kp S         &kp D         &kp F          &kp G             &kp H         &kp J          &kp K        &kp L        &kp SEMI   &mt RCTRL SQT 
+// ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+      &kp LALT        &kp Z        &kp X         &kp C         &kp V          &kp B             &kp N         &kp M       &kp COMMA      &kp DOT       &kp FSLH   &mt RALT BSLH
+// ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
+                                             &lt 1 LEFT_WIN  &mt LSHFT SPACE  &lt 2 RET      &lt 2 TAB        BCSKP       &lt 1 DEL                                              
+//                                           ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
+           
 
         raise_layer {
             bindings = <
