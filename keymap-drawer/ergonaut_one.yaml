@@ -177,7 +177,7 @@ layers:
   - {type: held}
   - {type: held}
   - Scroll ↑
-  - Scroll ↑
+  - Scroll ↓
   - '&mkp MB1'
   - Mouse ↑
   - '&mkp MB2'
