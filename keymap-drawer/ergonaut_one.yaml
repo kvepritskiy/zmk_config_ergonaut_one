@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - '['
-  - Ctrl
+  - Alt
   - A
   - S
   - D
@@ -24,7 +24,7 @@ layers:
   - L
   - ;
   - {t: '''', h: Ctrl}
-  - Alt
+  - Ctrl
   - Z
   - X
   - C
@@ -67,7 +67,7 @@ layers:
   - '='
   - '*'
   - /
-  - Alt
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
@@ -98,7 +98,7 @@ layers:
   - ''
   - ''
   - ']'
-  - Ctrl
+  - {t: ▽, type: trans}
   - ''
   - F5
   - F6
@@ -110,7 +110,7 @@ layers:
   - ''
   - ''
   - {t: '-', h: Ctrl}
-  - Alt
+  - {t: ▽, type: trans}
   - ''
   - F9
   - F10
