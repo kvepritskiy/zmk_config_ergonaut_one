@@ -138,7 +138,7 @@ layers:
   - VOLUME UP
   - MUTE
   - Vol Down
-  - ''
+  - PRINTSCREEN
   - ''
   - Boot
   - BT CLR
@@ -148,9 +148,9 @@ layers:
   - BT 4
   - BT 5
   - ⏮️
-  - PAUSE
+  - PLAY PAUSE
   - ⏭️
-  - ''
+  - SLEEP
   - ''
   - ''
   - Reset
@@ -159,10 +159,10 @@ layers:
   - ''
   - ''
   - ''
-  - Vol Down
+  - ''
   - STOP
   - ''
-  - ''
+  - POWER
   - ''
   - ''
   - {type: held}
