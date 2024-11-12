@@ -135,9 +135,9 @@ layers:
   - ''
   - ''
   - ''
-  - VOLUME DOWN
+  - Vol Down
   - MUTE
-  - VOLUME UP
+  - Vol Up
   - PRINTSCREEN
   - ''
   - Boot
@@ -147,10 +147,10 @@ layers:
   - BT 3
   - BT 4
   - BT 5
-  - PREV
-  - PP
-  - NEXT
-  - SLEEP
+  - ⏮️
+  - PLAY PAUSE
+  - ⏭️
+  - SLEEP MODE
   - ''
   - ''
   - Reset
