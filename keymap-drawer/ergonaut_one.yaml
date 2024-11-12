@@ -135,9 +135,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - VOLUME UP
+  - MUTE
+  - Vol Down
   - ''
   - ''
   - Boot
@@ -147,20 +147,20 @@ layers:
   - BT 3
   - BT 4
   - BT 5
-  - BT 5
-  - BT 4
-  - BT 3
-  - BT 2
-  - BT 1
-  - BT CLR
+  - ⏮️
+  - PAUSE
+  - ⏭️
+  - ''
+  - ''
+  - ''
   - Reset
   - ''
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - Vol Down
+  - STOP
   - ''
   - ''
   - ''
