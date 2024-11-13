@@ -135,9 +135,9 @@ layers:
   - ''
   - ''
   - ''
-  - Vol Down
+  - VOLUME UP
   - MUTE
-  - Vol Up
+  - Vol Down
   - PRINTSCREEN
   - ''
   - Boot
@@ -150,7 +150,7 @@ layers:
   - ⏮️
   - PLAY PAUSE
   - ⏭️
-  - SLEEP MODE
+  - ''
   - ''
   - ''
   - Reset
@@ -160,9 +160,9 @@ layers:
   - ''
   - ''
   - ''
-  - STOP
   - ''
-  - POWER
+  - ''
+  - ''
   - ''
   - ''
   - {type: held}
