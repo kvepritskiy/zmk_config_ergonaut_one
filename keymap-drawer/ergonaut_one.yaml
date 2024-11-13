@@ -135,9 +135,9 @@ layers:
   - ''
   - ''
   - ''
-  - VOLUME UP
+  - VOLUME DOWN
   - MUTE
-  - Vol Down
+  - VOLUME UP
   - PRINTSCREEN
   - ''
   - Boot
