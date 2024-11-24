@@ -95,7 +95,7 @@ layers:
   - Sft+ 1
   - Sft+ 2
   - Sft+ 3
-  - ''
+  - U AMP
   - ''
   - ']'
   - {t: ▽, type: trans}
