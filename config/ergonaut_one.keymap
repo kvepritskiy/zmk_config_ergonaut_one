@@ -85,7 +85,7 @@
 
         lower_layer {
             bindings = <
-&kp LGUI  &none  &kp F1  &kp F2   &kp F3   &kp F4   &kp LS(NUMBER_1)  &kp RS(NUMBER_2)  &kp RS(NUMBER_3)  &kp U_AMP   &none  &kp RIGHT_BRACKET
+&kp LGUI  &none  &kp F1  &kp F2   &kp F3   &kp F4   &kp LS(NUMBER_1)  &kp RS(NUMBER_2)  &kp RS(NUMBER_3)  &kp LS(N7)  &none  &kp RIGHT_BRACKET
 &trans    &none  &kp F5  &kp F6   &kp F7   &kp F8   &kp LS(NUMBER_4)  &kp RS(N5)        &kp LS(NUMBER_6)  &none       &none  &mt RCTRL MINUS
 &trans    &none  &kp F9  &kp F10  &kp F11  &kp F12  &kp RS(N7)        &kp RS(N8)        &kp RS(NUMBER_9)  &kp RS(N0)  &none  &kp RALT
                          &trans   &trans   &trans   &trans            &trans            &trans
