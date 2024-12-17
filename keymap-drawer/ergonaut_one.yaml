@@ -48,7 +48,7 @@ layers:
   - UP ARROW
   - {t: PAGE DOWN, h: End}
   - Insert
-  - ''
+  - {t: Alt+Sft+A, h: A}
   - '1'
   - '2'
   - '3'
