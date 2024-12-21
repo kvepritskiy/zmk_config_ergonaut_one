@@ -14,7 +14,7 @@
         compatible = "zephyr,bluetooth";
     };
 
-    pwm0: pwm0 {
+    pwm0: /soc/pwm@4001c000 {
         status = "disabled";
     };
 
