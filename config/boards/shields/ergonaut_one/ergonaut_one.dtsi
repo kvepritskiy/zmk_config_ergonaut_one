@@ -14,15 +14,15 @@
         compatible = "zephyr,bluetooth";
     };
 
-    pwm0: pwm@4001c000 {
+    pwm0: pwm0 {
         status = "disabled";
     };
 
-    uart0: uart@40002000 {
+    uart0: uart0 {
         status = "disabled";
     };
 
-    spi3: spi@4002f000 {
+    spi3: spi3 {
         status = "disabled";
     };
 };
