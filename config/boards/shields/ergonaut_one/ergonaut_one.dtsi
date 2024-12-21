@@ -18,7 +18,7 @@
         status = "disabled";
     };
 
-    uart0: uart0 {
+    uart1: uart1 {
         status = "disabled";
     };
 
