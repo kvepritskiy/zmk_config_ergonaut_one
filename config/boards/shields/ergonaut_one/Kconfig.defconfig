@@ -9,8 +9,7 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
 	default y
 
-config 
-USB_HID_POLL_INTERVAL_MS
+config USB_HID_POLL_INTERVAL_MS
 	default 1
 
 endif
