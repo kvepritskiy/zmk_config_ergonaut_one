@@ -40,7 +40,7 @@
 			, <&xiao_d  7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 			;
 	};
-};
+
     usb_hid: usb-hid {
         compatible = "zmk,usb-hid";
     };
