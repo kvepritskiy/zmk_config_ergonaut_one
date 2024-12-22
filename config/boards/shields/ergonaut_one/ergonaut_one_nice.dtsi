@@ -34,17 +34,9 @@
         status = "okay";
         compatible = "zephyr,bluetooth";
     };
-    pwm0: pwm0 {
-        status = "disabled";
-    };
-
-    uart0: uart0 {
-        status = "disabled";
-    };
-
-    spi3: spi3 {
-        status = "disabled";
-    };
 };
 
+&spi3 { status = "disabled"; };
+&uart0 { status = "disabled"; };
+&pwm0 { status = "disabled"; };
 
