@@ -4,4 +4,4 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "ergonaut_one.dtsi"
+#include "ergonaut_one_nice.dtsi"
