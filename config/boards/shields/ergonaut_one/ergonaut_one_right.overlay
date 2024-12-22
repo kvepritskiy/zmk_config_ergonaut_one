@@ -6,10 +6,6 @@
 
 #include "ergonaut_one_xiao.dtsi"
 
-&default_transform {
-    col-offset = <6>;
-};
-
 &kscan0 {
     col-gpios
         = <&xiao_d 0 GPIO_ACTIVE_HIGH>
