@@ -178,10 +178,10 @@ layers:
   - {type: held}
   - ''
   - Scroll ↑
+  - ''
   - '&mkp MB1'
   - Mouse ↑
   - '&mkp MB2'
-  - ''
   - ''
   - '&pwd'
   - {t: ▽, type: trans}
@@ -190,10 +190,10 @@ layers:
   - ''
   - Scroll ←
   - Scroll →
+  - ''
   - Mouse ←
   - Mouse ↓
   - Mouse →
-  - ''
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
