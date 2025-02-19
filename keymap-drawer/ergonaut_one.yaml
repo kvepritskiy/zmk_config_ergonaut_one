@@ -87,7 +87,7 @@ layers:
   - {t: ▽, type: trans}
   lower:
   - Gui
-  - ''
+  - '&u(0x2116)'
   - F1
   - F2
   - F3
