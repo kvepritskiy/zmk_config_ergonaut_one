@@ -11,6 +11,8 @@
 #define ADJ 3
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 2000 // 600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 12   // 10
+#define U_TO_RUS_SCUT LC(LS(N2))
+#define U_TO_ENG_SCUT LC(LS(N1))
 
 &lt { quick-tap-ms = <200>; };
 
@@ -50,6 +52,18 @@
             bindings = <&kp T &kp R &kp U &kp S &kp T &kp M &kp E &kp I &kp A &kp M &kp A &kp A &kp D &kp M &kp I &kp N &kp N4 &kp N2 &kp DOT>;
             label = "PWD";
         };
+          engkp: english_kp {
+                compatible = "zmk,behavior-macro-one-param";
+                wait-ms = <20>;
+                tap-ms = <20>;
+                #binding-cells = <1>;
+                bindings 
+                    = <&kp U_TO_ENG_SCUT>
+                    , <&macro_param_1to1>
+                    , <&kp MACRO_PLACEHOLDER>
+                    , <&kp U_TO_RUS_SCUT>
+                    ;
+                };
     };
 
     combos {
@@ -85,6 +99,15 @@
         lower_layer {
             bindings = <
 &kp LGUI  &none  &kp F1  &kp F2   &kp F3   &kp F4   &kp EXCL           &mt DOUBLE_QUOTES AT  &mt NUMBER_3 HASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET
+&trans    &none  &kp F5  &kp F6   &kp F7   &kp F8   &mt SEMI DOLLAR    &kp PERCENT           &mt COLON CARET    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &mt RCTRL MINUS
+&trans    &none  &kp F9  &kp F10  &kp F11  &kp F12  &mt QUESTION AMPS  &kp ASTRK             &kp UNDERSCORE     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RALT
+                         &trans   &trans   &trans   &trans             &trans                &trans
+            >;
+        };
+
+        symbols_layer {
+            bindings = <
+&kp LGUI  &none  &kp F1  &kp EXCL   &mt &english_kp LS(NUMBER_3) HASH   &kp F4   &kp EXCL           &mt DOUBLE_QUOTES AT  &mt NUMBER_3 HASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET
 &trans    &none  &kp F5  &kp F6   &kp F7   &kp F8   &mt SEMI DOLLAR    &kp PERCENT           &mt COLON CARET    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &mt RCTRL MINUS
 &trans    &none  &kp F9  &kp F10  &kp F11  &kp F12  &mt QUESTION AMPS  &kp ASTRK             &kp UNDERSCORE     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RALT
                          &trans   &trans   &trans   &trans             &trans                &trans
