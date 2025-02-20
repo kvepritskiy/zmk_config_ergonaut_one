@@ -107,7 +107,7 @@
 
         symbols_layer {
             bindings = <
-&kp LGUI  &none  &kp F1  &kp EXCL   &mt &english_kp LS(NUMBER_3) HASH   &kp F4   &kp EXCL           &mt DOUBLE_QUOTES AT  &mt NUMBER_3 HASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET
+&kp LGUI  &none  &kp F1  &kp EXCL   &mt &engkp LS(NUMBER_3) HASH   &kp F4   &kp EXCL           &mt DOUBLE_QUOTES AT  &mt NUMBER_3 HASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET
 &trans    &none  &kp F5  &kp F6   &kp F7   &kp F8   &mt SEMI DOLLAR    &kp PERCENT           &mt COLON CARET    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &mt RCTRL MINUS
 &trans    &none  &kp F9  &kp F10  &kp F11  &kp F12  &mt QUESTION AMPS  &kp ASTRK             &kp UNDERSCORE     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RALT
                          &trans   &trans   &trans   &trans             &trans                &trans
