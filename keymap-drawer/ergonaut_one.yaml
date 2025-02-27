@@ -95,7 +95,7 @@ layers:
   - F4
   - '!'
   - {t: Sft+2, h: '&ru_at'}
-  - {t: '#', h: '3'}
+  - {t: Sft+3, h: '&ru_number'}
   - (
   - )
   - ']'
@@ -105,9 +105,9 @@ layers:
   - F6
   - F7
   - F8
-  - {t: $, h: ;}
+  - {t: Sft+$, h: '&ru_dollar'}
   - '%'
-  - '&ru_carret'
+  - {t: Sft+6, h: '&ru_carret'}
   - '['
   - ']'
   - {t: '-', h: Ctrl}
@@ -117,7 +117,7 @@ layers:
   - F10
   - F11
   - F12
-  - {t: '&', h: '?'}
+  - {t: Sft+7, h: '&ru_at'}
   - '*'
   - _
   - '{'
