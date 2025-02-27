@@ -4,6 +4,9 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #define DEF 0
 #define LWR 1
@@ -77,8 +80,8 @@
         raise_layer {
             bindings = <
 &kp LGUI  &mt HOME PAGE_UP  &kp UP_ARROW    &mt END PAGE_DOWN  &kp INS  &mt A LA(LS(A))  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_NUMLOCK  &kp PLUS      &kp MINUS
-&trans    &kp LEFT          &kp DOWN_ARROW  &kp RIGHT          &none    &none            &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL       &kp ASTERISK  &kp SLASH
-&trans    &none             &none           &none              &none    &none            &kp N7        &kp N8        &kp N9        &kp N0          &kp KP_DOT    &kp RALT
+&trans    &kp LEFT          &kp DOWN_ARROW  &kp RIGHT          &none    &kp LANGUAGE_1   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL       &kp ASTERISK  &kp SLASH
+&trans    &none             &none           &none              &none    &kp LANGUAGE_2   &kp N7        &kp N8        &kp N9        &kp N0          &kp KP_DOT    &kp RALT
                                             &trans             &trans   &trans           &trans        &trans        &trans
             >;
         };

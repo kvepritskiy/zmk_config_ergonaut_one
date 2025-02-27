@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: ergonaut_one}
 layers:
   default:
   - ESCAPE
@@ -60,7 +61,7 @@ layers:
   - DOWN ARROW
   - →
   - ''
-  - ''
+  - LANGUAGE 1
   - '4'
   - '5'
   - '6'
@@ -72,7 +73,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - LANGUAGE 2
   - '7'
   - '8'
   - '9'
