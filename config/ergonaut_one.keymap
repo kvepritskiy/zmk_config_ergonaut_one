@@ -174,7 +174,7 @@
             bindings = <
 &kp LGUI  &none  &kp F1  &kp F2   &kp F3   &kp F4   &kp EXCL                              &ru_at_or_qu 0 LS(NUMBER_2)  &ru_hash_or_number 0 LS(NUMBER_3)   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET
 &trans    &none  &kp F5  &kp F6   &kp F7   &kp F8   &ru_dollar_or_semicolon 0 LS(DOLLAR)  &kp PERCENT                  &ru_carret_or_colon 0 LS(NUMBER_6)  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &mt RCTRL MINUS
-&trans    &none  &kp F9  &kp F10  &kp F11  &kp F12  &ru_at_or_qu 0 LS(N7)                 &kp ASTRK                    &kp UNDERSCORE                      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RALT
+&trans    &none  &kp F9  &kp F10  &kp F11  &kp F12  &ru_amp_or_question 0 LS(N7)                 &kp ASTRK                    &kp UNDERSCORE                      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RALT
                          &trans   &trans   &trans   &trans                                &trans                       &trans
             >;
         };

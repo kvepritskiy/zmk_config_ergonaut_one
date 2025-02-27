@@ -117,7 +117,7 @@ layers:
   - F10
   - F11
   - F12
-  - {t: Sft+7, h: '&ru_at'}
+  - {t: Sft+7, h: '&ru_amp'}
   - '*'
   - _
   - '{'
