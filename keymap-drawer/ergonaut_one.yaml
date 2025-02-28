@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: ergonaut_one}
 layers:
   default:
   - ESCAPE
@@ -164,7 +165,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - Reset
   - {type: held}
   - ''
   - {type: held}
