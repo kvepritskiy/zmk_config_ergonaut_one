@@ -7,3 +7,5 @@ include:
     shield: ergonaut_one_dongle
   - board: seeeduino_xiao_ble
     shield: settings_reset
+  - board: seeeduino_xiao_ble
+    shield: corne_dongle_xiao nice_view_adapter dongle_display_view_seeeduino_xiao_ble
