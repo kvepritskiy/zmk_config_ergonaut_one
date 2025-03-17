@@ -5,7 +5,7 @@
  */
 
 #include "ergonaut_one.dtsi"
-
+/ {
     chosen {
         zmk,kscan = &mock_kscan;
         zephyr,display = &oled;
