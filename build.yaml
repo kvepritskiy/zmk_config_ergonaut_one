@@ -8,4 +8,4 @@ include:
   - board: seeeduino_xiao_ble
     shield: settings_reset
   - board: seeeduino_xiao_ble
-    shield: ergonaut_one_dongle
+    shield: sweep_central_dongle dongle_display
