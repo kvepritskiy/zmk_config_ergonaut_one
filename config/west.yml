@@ -7,9 +7,6 @@ manifest:
     - name: zmk-dongle-display
       remote: englmaxi
       revision: main
-    - name: zmk-nice-oled
-      remote: mctechnology17
-      revision: main
   projects:
     - name: zmk
       remote: petejohanson
@@ -17,15 +14,6 @@ manifest:
       import: app/west.yml
     - name: zmk-dongle-display
       remote: englmaxi
-      revision: main
-    - name: zmk-nice-oled
-      remote: mctechnology17
-      revision: main
-    - name: zmk-dongle-display-view
-      remote: mctechnology17
-      revision: main
-    - name: zmk-oled-adapter
-      remote: mctechnology17
       revision: main
   self:
     path: config
