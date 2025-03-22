@@ -42,5 +42,6 @@
         page-offset = <0>;
         display-offset = <0>;
         multiplex-ratio = <63>;
+        prechargep = <0x22>;
     };
 };
