@@ -32,19 +32,19 @@
 
 &xiao_i2c {
     status = "okay";
-
+    
     oled: ssd1306@3c {
         compatible = "solomon,ssd1306fb";
-        reg = <0x3c>;              // Попробуйте при необходимости поменять на 0x3d
+        reg = <0x3c>;
         width = <128>;
         height = <64>;
-        segment-offset = <2>;       // Изменено на 2 для корректного смещения
+        segment-offset = <2>;
         page-offset = <0>;
         display-offset = <0>;
         multiplex-ratio = <63>;
         segment-remap;
         com-invdir;
-        inversion-on;              // Если цвета инвертированы не так, как нужно, можно удалить эту строку
+        inversion-on;
         prechargep = <0x22>;
     };
 };
