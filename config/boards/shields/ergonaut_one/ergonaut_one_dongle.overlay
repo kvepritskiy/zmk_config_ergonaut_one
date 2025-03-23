@@ -41,7 +41,7 @@
         segment-offset = <2>;
         page-offset = <0>;
         display-offset = <0>;
-        multiplex-ratio = <64>;
+        multiplex-ratio = <60>;
         prechargep = <0x22>;
         inversion-on;
     };
