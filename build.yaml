@@ -6,4 +6,4 @@ include:
   - board: seeeduino_xiao_ble
     shield: settings_reset
   - board: seeeduino_xiao_ble
-    shield: ergonaut_one_dongle nice_view_adapter dongle_display_view_seeeduino_xiao_ble
+    shield: ergonaut_one_dongle nice_view_adapter dongle_display_view_seeeduino_xiao_ble sh1106_128x64
